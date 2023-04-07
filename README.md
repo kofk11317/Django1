@@ -1,2 +1,12 @@
 # Django1
 hello world
+
+> Django 스터디
+------
+
+## Member
+> 조현호 고우석 김재윤 이정현
+
+## Datae
+> 매주 월요일 오후 9시
+
