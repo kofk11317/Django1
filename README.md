@@ -100,7 +100,11 @@ lst[-1]
 ``` python
 lst[3::-1]
 ```
+*deep copy,shalllow copy(https://wikidocs.net/16038)
+
 ------
 ## 튜플
+
+
 ------
 ## 딕셔너리
