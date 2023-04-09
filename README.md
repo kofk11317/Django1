@@ -37,6 +37,24 @@ lst.append()
 ``` python
 lst.insert(index,value)
 ```
+
+*제거(데이터 삭제)
+``` python
+del lst[index]
+```
+
+*제거 2(데이터 삭제 ~> 반환)
+``` python
+lst.pop(index)
+```
+index를 넣는 경우도 있지만 잘 사용 x
+
+*제거 3(리스트에서 직접 값을 찾아서 삭제)
+``` python
+lst.remove(value)
+```
+
+
 ------
 ## 튜플
 ------
