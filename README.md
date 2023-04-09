@@ -115,9 +115,22 @@ sum(lst)
 ```
 
 
+
 ------
 ## 튜플
+* 선언
+``` python
+tup=()
+```
+* 리스트로 변환법
+``` python
+list(tup)
+```
 
-
+* 함수
+``` python
+tuple(lst).index(5)#튜플 안에 5 값을 찾아서 그 인덱스를 반환
+tuple(lst).count(2)#lst안에 2를 찾아서 개수를 
+```
 ------
 ## 딕셔너리
