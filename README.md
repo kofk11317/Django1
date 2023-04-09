@@ -61,7 +61,7 @@ lst.sort()
 
 *정렬2(원본은 유지한 채 정렬된 새로운 리스트 만들고 싶을 때) 
 ``` python
-new=sotrde(lst)
+new=sorted(lst)
 ```
 
 *역순정렬 (c++ 정렬과 동일)(원본이 정렬됨)
