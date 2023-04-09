@@ -177,8 +177,9 @@ a.items()#dict_items([('name', 'pey'), ('phone', '010-9999-1234'), ('birth', '11
 ```
 ## 보통 그대로 사용하기 보다는 list(a.함수()) 이런 방식으로 리스트로 바꿔서 사용
 
+* 딕셔너리에서의 반복문 
 ``` python
- for key,value in student.items():#key값과 value 모두 출력됨
+for key,value in student.items():#key값과 value 모두 출력됨
        print(key,value)
 for i in student:#key 값만 출력됨
     print(i)
