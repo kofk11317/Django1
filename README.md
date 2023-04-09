@@ -141,5 +141,11 @@ student={'student num':'12345','major':'CS'}
 ``` python
 student['major']#'CS' 출력
 ```
-
-
+* 추가
+ ``` python
+student['성적']=4.0 # {'student num': '12345', 'major': 'CS', '성적': 4.0}
+```
+* 수정
+``` python
+student[value]=new value
+```
