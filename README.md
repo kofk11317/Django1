@@ -102,6 +102,13 @@ lst[3::-1]
 ```
 *[deep copy,shallow copy] (https://wikidocs.net/16038)
 
+*반복문 
+``` python
+for i in lst:
+     print(i) #기본이 출력후 줄바꿈
+```
+
+
 ------
 ## 튜플
 
