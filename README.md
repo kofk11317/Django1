@@ -44,10 +44,13 @@ del lst[index]
 ```
 
 *제거 2(데이터 삭제 ~> 반환)
+
+
+index를 넣는 경우도 있지만 잘 사용 x
 ``` python
 lst.pop(index)
 ```
-index를 넣는 경우도 있지만 잘 사용 x
+
 
 *제거 3(리스트에서 직접 값을 찾아서 삭제)
 ``` python
@@ -70,7 +73,8 @@ lst.sort(reverse=True)
 ```
 
 *슬라이싱(리스트 함수 중 제일 중요하다고 생각함)
-(start<= <end)
+(start<= <end,jump눈 몇 칸씩 이동할지)
+
 ``` python
 lst[start:end:jump]
 ```
@@ -90,6 +94,12 @@ lst[1:]
 lst[-1]
 ```
 
+(역순으로도 필요한 만큼 출력도 가능)
+
+3번 인덱스 부터 0번 인덱스까지 역순으로(3,2,1,0) 
+``` python
+lst[3::-1]
+```
 ------
 ## 튜플
 ------
