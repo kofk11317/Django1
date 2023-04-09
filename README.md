@@ -67,13 +67,13 @@ lst.sort()
 new=sorted(lst)
 ```
 
-*역순정렬 (c++ 정렬과 동일)(원본이 정렬됨)
+*역순정렬 
 ``` python
 lst.sort(reverse=True)
 ```
 
 *슬라이싱(리스트 함수 중 제일 중요하다고 생각함)
-(start<= <end,jump눈 몇 칸씩 이동할지)
+(start<= <end,jump는 몇 칸씩 이동할지)
 
 ``` python
 lst[start:end:jump]
