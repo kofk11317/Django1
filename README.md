@@ -107,6 +107,12 @@ lst[3::-1]
 for i in lst:
      print(i) #기본이 출력후 줄바꿈
 ```
+* 최대,최소,합
+``` python
+max(lst)  
+min(lst)
+sum(lst)
+```
 
 
 ------
