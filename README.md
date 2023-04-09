@@ -164,14 +164,12 @@ a = {'name': 'pey', 'phone': '010-9999-1234', 'birth': '1118'}
 a.keys()#출력 dict_keys(['name', 'phone', 'birth'])
 ```
 ``` python
-a.values()
-dict_values(['pey', '010-9999-1234', '1118'])
+a.values()#dict_values(['pey', '010-9999-1234', '1118'])
 
 ```
 
 ``` python
-a.items()
-dict_items([('name', 'pey'), ('phone', '010-9999-1234'), ('birth', '1118')])
+a.items()#dict_items([('name', 'pey'), ('phone', '010-9999-1234'), ('birth', '1118')])
 ```
 
 ``` python
