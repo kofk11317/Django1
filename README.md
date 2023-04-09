@@ -130,7 +130,16 @@ list(tup)
 * 함수
 ``` python
 tuple(lst).index(5)#튜플 안에 5 값을 찾아서 그 인덱스를 반환
-tuple(lst).count(2)#lst안에 2를 찾아서 개수를 
+tuple(lst).count(2)#lst안에 값이 몇 개 있는 지 출력
 ```
 ------
-## 딕셔너리
+## 딕셔너리(key:values)
+* 선언
+``` python
+student={'student num':'12345','major':'CS'}
+```
+``` python
+student['major']#'CS' 출력
+```
+
+
