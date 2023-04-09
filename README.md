@@ -149,3 +149,32 @@ student['성적']=4.0 # {'student num': '12345', 'major': 'CS', '성적': 4.0}
 ``` python
 student[value]=new value
 ```
+
+* 삭제
+``` python
+del student[value]#키값을 찾아서 key:values 모두 삭제
+```
+
+* 함수 
+``` python
+student.get('student num')#key 를 넣으면 value'12345' 출력
+```
+``` python
+a = {'name': 'pey', 'phone': '010-9999-1234', 'birth': '1118'}
+a.keys()#출력 dict_keys(['name', 'phone', 'birth'])
+```
+``` python
+a.values()
+dict_values(['pey', '010-9999-1234', '1118'])
+
+```
+
+``` python
+a.items()
+dict_items([('name', 'pey'), ('phone', '010-9999-1234'), ('birth', '1118')])
+```
+
+``` python
+ a.clear()# 딕셔너리 안에 있는 모든 값 삭제
+```
+## 보통 그대로 사용하기 보다는 list(a.함수()) 이런 방식으로 리스트로 바꿔서 사용
