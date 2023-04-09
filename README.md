@@ -28,7 +28,7 @@ lst=[]
 *추가 ,
 리스트 맨 뒤에 추가
 ``` python
-lst.append()
+lst.append(value)
 ```
 
 
@@ -54,6 +54,41 @@ index를 넣는 경우도 있지만 잘 사용 x
 lst.remove(value)
 ```
 
+*정렬 (c++ 정렬과 동일)(원본이 정렬됨)
+``` python
+lst.sort()
+```
+
+*정렬2(원본은 유지한 채 정렬된 새로운 리스트 만들고 싶을 때) 
+``` python
+new=sotrde(lst)
+```
+
+*역순정렬 (c++ 정렬과 동일)(원본이 정렬됨)
+``` python
+lst.sort(reverse=True)
+```
+
+*슬라이싱(리스트 함수 중 제일 중요하다고 생각함)
+(start<= <end)
+``` python
+lst[start:end:jump]
+```
+
+(0<= <4)
+``` python
+lst[:4]
+```
+
+(1<= <=end)
+``` python
+lst[1:]
+```
+
+(리스트 제일 뒤에서 하나 출력도 가능)
+``` python
+lst[-1]
+```
 
 ------
 ## 튜플
