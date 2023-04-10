@@ -80,6 +80,48 @@ hello world
   
     - git branch <브랜치명> : branch 생성
     - git switch <브랜치명> : <브랜치명>으로 이동
+## 챕터 5 - 변수와 자료형
+------
+- 변수 선언
+    - greeting = “Hello World”
+- 주의 사항
+    - 변수 사이에 공백 허용되지 않음
+    - 단어 사이는 _ 로 연결
+    - 문자열은 숫자/특수문자로 시작이 불가
+    - 예약어 변수로 선언 불가
+    - 가급적 소문자 사용
+
+**문자열**
+- upper, lower, strip 함수
+- removeprefix 함수 : 특정 문자열 변수에서 없애고 싶은 부분을 지울 수 있음
+- replace 함수 : replace(”A”, “B”)를 통해 A를 B로 변경할 수 있음
+- f string : 변수와 문자열을 혼합해서 사용하기 위함
+    - Ex) print(f”{변수})
+
+**숫자**
+- 정수, 실수 기억할 것
+- +, -, *, / 와 같이 사칙 연산 가능
+- 문자열 - 숫자 간 변환 기억할 것
+    - str(), int(), float()
+
+**논리형**
+- True, False
+
+**명령 프롬프트**
+- text = input(”설치 진행하겠습니까 ? ”)
+------
+## 챕터 6 - 조건문과 반복문
+------
+**조건문**
+- If 문
+
+![image](https://user-images.githubusercontent.com/87240205/230898896-cefbb653-f4e0-4fc2-9382-591bd83b8edc.png)
+
+**반복문**
+- for 문
+- while 문
+------
+
 ## 챕터 7 - 자료구조
 ------
 ### 목차: 리스트,튜플,딕셔너리
@@ -254,3 +296,9 @@ for key,value in student.items():#key값과 value 모두 출력됨
 for i in student:#key 값만 출력됨
     print(i)
 ```
+
+
+
+
+
+
