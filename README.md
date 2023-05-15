@@ -297,6 +297,105 @@ for i in student:#key 값만 출력됨
     print(i)
 ```
 
+## Chapter 10
+### 선언
+
+```python
+class 클래스명:    
+	def __init__(self):   
+
+```
+---
+### 생성
+
+```python
+class Student:
+	def __init__(self, name, major):
+		self.name = name
+		self.major = major
+		
+	def study(self):
+		print(f'{self.name} 학생은 공부중입니다.')#f-string 사용
+
+
+student_1 = Student('멋사', '기계공학')
+
+print(student_1.name)#멋사
+
+student_1.study()#멋사 학생은 공부중입니다.
+```
+---
+### 인스턴스 생성
+```python
+student_1 = Student('멋사', '기계공학')
+
+# 속성에  직접적인 접근은  좋지 않기에  함수를 만들어서 접근하는 것이 좋음(캡슐화)
+#파이썬에는 접근 지정자가 없음 
+student_1.major = '전자공학'#bad
+def new_major(self,major):#good
+        self.major=major
+        print(f'전공이 {major}로 변경되었습니다.')  
+
+```
+---
+### 상속
+
+```python
+class foregin_student(Student)#Student class를 상속하는 foregin_student class 생성
+```
+---
+### 다형성
+
+* 부모 클래스의 메소드를 사용할 수 있게 해주는 함수로 부모 클래스 정의한 내용을 가져옴
+
+
+```python
+class foregin_student(Student):
+	def __init__(self, name, major, country):
+		super().__init__(name, major)#여기서는 부모의 name과 major를 가져옴 (다형성)
+		self.country = country
+foreign_student_1 = foregin_student('lion', '국어국문학', '미국')
+```
+---
+### 오버라이딩 
+* 오버라이딩 은 상속받은 메소드를 자식 클래스에서 재정의 하는 것으로, 메소드의 이름, 매개변수, 리턴 값이 모두 같아야 합니다
+
+* 부모 클래스에 있는 메소드를 동일한 이름으로 다시 만드는 것
+* 부모 클래스의 대신 자식 메소드가 호출된다.
+
+```python
+class foregin_student(Student):
+	def __init__(self, name, major, country):
+		super().__init__(name, major)
+		self.country = country
+		
+	def study(self):
+		print(f'{self.name} is studying.')
+```
+---
+### 오버로딩
+* 오버로딩은 한 클래스 내에 같은 이름의 메서드 여러 개를 가지면서 매개변수의 유형과 개수가 다르도록 하는 기술. 
+
+```python
+sum(int, int)
+
+sum(int, int, int)
+
+sum(int, int, int, int)
+```
+
+---
+### 클래스 활용
+
+```python
+# 다른 파일에 있는 특정 클래스를 사용하고 싶을 때
+import class from Student, foregin_student
+# 다른 파일에 있는 모든 클래스를 사용하고 싶을 때
+import class from *
+```
+
+
+
 ## chapter 12
   ###  web의 등장
 ----
